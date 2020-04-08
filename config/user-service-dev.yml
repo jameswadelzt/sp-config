@@ -22,7 +22,7 @@ eureka:
     service-url:
       # 默认地点, 要由公共云服务来提供
       # 如果是私有服务器, 必须写 defaultZone
-      defaultZone: http://eureka1:2001/eureka
+      defaultZone: http://eureka1:2001/eureka, http://eureka1:2002/eureka
       
 management:
   endpoints:
